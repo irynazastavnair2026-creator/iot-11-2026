@@ -4,7 +4,7 @@ class Medicine:
         self.price = price
 
 class Pharmacy:
-    def init(self):
+    def __init__(self):
         self.items = []
 
     def add(self, med):
